@@ -6,7 +6,7 @@
  * @countInt: line_number
  * Return: no return
 */
-void f_pstr(stack_t **head, unsigned int countInt)
+void _pstr(stack_t **head, unsigned int countInt)
 {
 	stack_t *x;
 	(void)countInt;

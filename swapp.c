@@ -5,7 +5,7 @@
  * @countInt: line_number
  * Return: no return
 */
-void f_swap(stack_t **head, unsigned int countInt)
+void _swap(stack_t **head, unsigned int countInt)
 {
 	stack_t *x;
 	int lent = 0, rat;

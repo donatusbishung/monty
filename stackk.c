@@ -5,7 +5,7 @@
  * @countInt: line_number
  * Return: no return
 */
-void f_stack(stack_t **head, unsigned int countInt)
+void _stack(stack_t **head, unsigned int countInt)
 {
 	(void)head;
 	(void)countInt;

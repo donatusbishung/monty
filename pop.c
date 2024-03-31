@@ -5,7 +5,7 @@
  * @countInt: line number
  * Return: no return
 */
-void f_pop(stack_t **head, unsigned int countInt)
+void _pop(stack_t **head, unsigned int countInt)
 {
 	stack_t *x;
 

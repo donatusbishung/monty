@@ -10,21 +10,21 @@
 int execute_code(char *content, stack_t **stack, unsigned int countInt, FILE *file)
 {
 	instruction_t opsty[] = {
-				{"push", f_push}, {"pall", f_pal}, {"pint", f_pint},
-				{"pop", f_pop},
-				{"swap", f_swap},
-				{"add", f_add},
-				{"nop", f_nop},
-				{"sub", f_sub},
-				{"div", f_div},
-				{"mul", f_mul},
-				{"mod", f_mod},
-				{"pchar", f_pchar},
-				{"pstr", f_pstr},
-				{"rotl", f_rotl},
-				{"rotr", f_rotr},
+				{"push", _push}, {"pall", _pal}, {"pint", _pint},
+				{"pop", _pop},
+				{"swap", _swap},
+				{"add", add},
+				{"nop", _nop},
+				{"sub", sub},
+				{"div", _div},
+				{"mul", _mul},
+				{"mod", mod},
+				{"pchar", _pchar},
+				{"pstr", _pstr},
+				{"rotl", rotl},
+				{"rotr", rotr},
 				{"queue", f_queue},
-				{"stack", f_stack},
+				{"stack", _stack},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;

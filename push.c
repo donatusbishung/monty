@@ -5,7 +5,7 @@
  * @countInt: line_number
  * Return: no return
 */
-void f_push(stack_t **head, unsigned int countInt)
+void _push(stack_t **head, unsigned int countInt)
 {
 	int n, j = 0, flags = 0;
 

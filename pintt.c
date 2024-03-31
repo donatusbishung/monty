@@ -5,7 +5,7 @@
  * @countInt: line_number
  * Return: no return
 */
-void f_pint(stack_t **head, unsigned int countInt)
+void _pint(stack_t **head, unsigned int countInt)
 {
 	if (*head == NULL)
 	{

@@ -5,7 +5,7 @@
   *@countInt: line_number
   *Return: no return
  */
-void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int countInt)
+void rotl(stack_t **head,  __attribute__((unused)) unsigned int countInt)
 {
 	stack_t *temp = *head, *rat;
 

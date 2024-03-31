@@ -5,7 +5,7 @@
  * @countInt: no used
  * Return: no return
 */
-void f_pal(stack_t **head, unsigned int countInt)
+void _pal(stack_t **head, unsigned int countInt)
 {
 	stack_t *h;
 	(void)countInt;

@@ -6,7 +6,7 @@
  * @countInt: line number
  * Return: no return
 */
-void f_mod(stack_t **head, unsigned int countInt)
+void mod(stack_t **head, unsigned int countInt)
 {
 	stack_t *x;
 	int lent = 0, rat;

@@ -5,7 +5,7 @@
  * @countInt: line number
  * Return: no return
  */
-void f_add(stack_t **head, unsigned int countInt)
+void add(stack_t **head, unsigned int countInt)
 {
     stack_t *z;
     int lent = 0, rat;

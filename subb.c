@@ -5,7 +5,7 @@
   *@countInt: line_number
   *Return: no return
  */
-void f_sub(stack_t **head, unsigned int countInt)
+void sub(stack_t **head, unsigned int countInt)
 {
 	stack_t *rat;
 	int sos, allNodes;

@@ -5,7 +5,7 @@
  * @countInt: line_number
  * Return: no return
 */
-void f_mul(stack_t **head, unsigned int countInt)
+void _mul(stack_t **head, unsigned int countInt)
 {
 	stack_t *h;
 	int lent = 0, rat;
